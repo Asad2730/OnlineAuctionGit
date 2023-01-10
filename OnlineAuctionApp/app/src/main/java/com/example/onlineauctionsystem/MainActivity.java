@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
-        loadFragment(new SaleProduct());
+        loadFragment(new CategoryFragment());
 
 
        navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -48,11 +48,14 @@ public class MainActivity extends AppCompatActivity {
 
                int id = item.getItemId();
                if(id == R.id.sale_product){
-                   loadFragment(new SaleProduct());
+                   loadFragment(new CategoryFragment());
                 }
                else if(id == R.id.wallet){
                  loadFragment(new WalletProduct());
                 }
+               else if(id == R.id.category){
+                   loadFragment(new AddCategoryFragment());
+               }
                else{
                  startActivity(new Intent(getApplicationContext(),CreateProductListing.class));
               }

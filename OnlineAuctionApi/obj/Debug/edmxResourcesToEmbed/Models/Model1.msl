@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="AuctionDbModelStoreContainer" CdmEntityContainer="AuctionDbEntities5">
+  <EntityContainerMapping StorageEntityContainer="AuctionDbModelStoreContainer" CdmEntityContainer="AuctionDbEntities6">
     <EntitySetMapping Name="Offers">
       <EntityTypeMapping TypeName="AuctionDbModel.Offer">
         <MappingFragment StoreEntitySet="Offer">
@@ -9,20 +9,6 @@
           <ScalarProperty Name="bid" ColumnName="bid" />
           <ScalarProperty Name="pid" ColumnName="pid" />
           <ScalarProperty Name="price" ColumnName="price" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Products">
-      <EntityTypeMapping TypeName="AuctionDbModel.Product">
-        <MappingFragment StoreEntitySet="Product">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="uid" ColumnName="uid" />
-          <ScalarProperty Name="name" ColumnName="name" />
-          <ScalarProperty Name="description" ColumnName="description" />
-          <ScalarProperty Name="type" ColumnName="type" />
-          <ScalarProperty Name="price" ColumnName="price" />
-          <ScalarProperty Name="location" ColumnName="location" />
-          <ScalarProperty Name="image" ColumnName="image" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -42,6 +28,29 @@
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="uid" ColumnName="uid" />
           <ScalarProperty Name="balance" ColumnName="balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="AuctionDbModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="AuctionDbModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="cid" ColumnName="cid" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

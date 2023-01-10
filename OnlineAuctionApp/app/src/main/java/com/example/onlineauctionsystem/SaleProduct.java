@@ -93,7 +93,7 @@ public class SaleProduct extends Fragment {
 
     private void loadList(){
         list = new ArrayList<>();
-        String url = Helper.ip+"getProducts?uid="+Helper.uid;
+        String url = Helper.ip+"getProducts?uid="+Helper.uid+"&cid="+Helper.cid;
         Log.e("URL",url);
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
             @Override

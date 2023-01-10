@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
 {
     public class AuctionController : ApiController
     {
-        public AuctionDbEntities5 db = new AuctionDbEntities5();        
+        public AuctionDbEntities6 db = new AuctionDbEntities6();        
 
      
 
@@ -63,6 +63,7 @@ namespace WebApplication1.Controllers
                 q.type = p.type;
                 q.name = p.name;
                 q.description = p.description;
+                q.cid = p.cid;
                 db.SaveChanges();
                 return Request.CreateResponse(HttpStatusCode.OK, q);
             }
@@ -100,14 +101,44 @@ namespace WebApplication1.Controllers
             }
         }
 
+        [HttpPost]
+        public HttpResponseMessage addCategory(Category c)
+        {
+            try
+            {
+                db.Categories.Add(c);
+                db.SaveChanges();
+                return Request.CreateResponse(HttpStatusCode.OK, c);
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+
 
         [HttpGet]
-        public HttpResponseMessage getProducts(int uid)
+        public HttpResponseMessage getCategory()
+        {
+            try
+            {
+                var q = db.Categories.Select(i => i).ToList();
+                return Request.CreateResponse(HttpStatusCode.OK, q);
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+        [HttpGet]
+        public HttpResponseMessage getProducts(int uid,int cid)
         {
             try
             {
 
-                var q = db.Products.Where(i=>i.uid != uid).ToList();
+                var q = db.Products.Where(i=>i.uid != uid && i.cid == cid).ToList();
                 return Request.CreateResponse(HttpStatusCode.OK, q);
             }
             catch (Exception ex)

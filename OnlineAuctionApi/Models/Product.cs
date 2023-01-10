@@ -22,5 +22,6 @@ namespace WebApplication1.Models
         public Nullable<double> price { get; set; }
         public string location { get; set; }
         public string image { get; set; }
+        public Nullable<int> cid { get; set; }
     }
 }

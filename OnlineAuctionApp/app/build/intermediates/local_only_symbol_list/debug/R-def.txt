@@ -8,6 +8,7 @@ color teal_200
 color teal_700
 color white
 drawable camera
+drawable category
 drawable create_24
 drawable ic_baseline_history_24
 drawable ic_launcher_background
@@ -21,6 +22,7 @@ drawable wallet
 id add
 id balance
 id card_view
+id category
 id container_content_main
 id createProduct
 id description
@@ -66,11 +68,14 @@ layout activity_product_list
 layout activity_sign_up
 layout app_bar_main
 layout content_main
+layout fragment_add_category
+layout fragment_category
 layout fragment_history_product
 layout fragment_sale_product
 layout fragment_wallet_product
 layout header_layout
 layout list_row
+layout row_category
 layout sales_row
 menu navigation_menu
 mipmap ic_launcher

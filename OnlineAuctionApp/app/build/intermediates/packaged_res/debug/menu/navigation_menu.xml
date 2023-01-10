@@ -18,4 +18,9 @@
         android:icon="@drawable/create_24"
         android:title="CreateProduct" />
 
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/create_24"
+        android:title="Add Category" />
+
 </menu>

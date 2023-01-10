@@ -6,185 +6,185 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml
+8-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml
+9-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:5:5-81
-11-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:5:22-78
+11-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:5:5-81
+11-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:5:22-78
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:6:5-80
-12-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:6:22-77
+12-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:6:22-77
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:7:5-67
-13-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:7:22-64
+13-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:7:5-67
+13-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:7:22-64
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:8:5-79
-14-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:8:22-76
+14-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:8:22-76
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:9:5-65
-15-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:9:22-62
+15-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:9:5-65
+15-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:9:22-62
 16    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-16-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:10:5-82
-16-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:10:22-79
+16-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:10:5-82
+16-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:10:22-79
 17
 18    <uses-feature
-18-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:12:1-14:31
+18-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:12:1-14:31
 19        android:name="android.hardware.camera"
-19-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:13:5-43
+19-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:13:5-43
 20        android:required="true" />
-20-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:14:5-28
+20-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:14:5-28
 21
 22    <application
-22-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:18:1-102:15
+22-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:18:1-102:15
 23        android:allowBackup="true"
-23-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:19:5-31
+23-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:19:5-31
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 24-->[androidx.core:core:1.8.0] C:\Users\asads\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 25        android:dataExtractionRules="@xml/data_extraction_rules"
-25-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:20:5-61
+25-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:20:5-61
 26        android:debuggable="true"
 27        android:fullBackupContent="@xml/backup_rules"
-27-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:21:5-50
+27-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:21:5-50
 28        android:icon="@mipmap/ic_launcher"
-28-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:22:5-39
+28-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:22:5-39
 29        android:label="@string/app_name"
-29-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:23:5-37
+29-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:23:5-37
 30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:24:5-50
+30-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:24:5-50
 31        android:supportsRtl="true"
-31-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:25:5-31
+31-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:25:5-31
 32        android:testOnly="true"
 33        android:theme="@style/Theme.OnlineAuctionSystem"
-33-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:26:5-53
+33-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:26:5-53
 34        android:usesCleartextTraffic="true" >
-34-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:27:5-40
+34-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:27:5-40
 35        <activity
-35-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:30:5-37:16
+35-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:30:5-37:16
 36            android:name="com.example.onlineauctionsystem.CreateProductListing"
-36-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:31:9-45
+36-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:31:9-45
 37            android:exported="false" >
-37-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:32:9-33
+37-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:32:9-33
 38            <meta-data
-38-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+38-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 39                android:name="android.app.lib_name"
-39-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+39-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 40                android:value="" />
-40-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+40-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 41        </activity>
 42        <activity
-42-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:38:5-44:16
+42-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:38:5-44:16
 43            android:name="com.example.onlineauctionsystem.MakeOffer"
-43-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:39:9-34
+43-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:39:9-34
 44            android:exported="false" >
-44-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:40:9-33
+44-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:40:9-33
 45            <meta-data
-45-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+45-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 46                android:name="android.app.lib_name"
-46-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+46-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 47                android:value="" />
-47-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+47-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 48        </activity>
 49        <activity
-49-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:45:5-51:16
+49-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:45:5-51:16
 50            android:name="com.example.onlineauctionsystem.ProductDetail"
-50-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:46:9-38
+50-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:46:9-38
 51            android:exported="false" >
-51-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:47:9-33
+51-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:47:9-33
 52            <meta-data
-52-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+52-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 53                android:name="android.app.lib_name"
-53-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+53-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 54                android:value="" />
-54-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+54-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 55        </activity>
 56        <activity
-56-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:52:5-58:16
+56-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:52:5-58:16
 57            android:name="com.example.onlineauctionsystem.ProductList"
-57-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:53:9-36
+57-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:53:9-36
 58            android:exported="false" >
-58-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:54:9-33
+58-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:54:9-33
 59            <meta-data
-59-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+59-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 60                android:name="android.app.lib_name"
-60-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+60-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 61                android:value="" />
-61-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+61-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 62        </activity>
 63        <activity
-63-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:59:5-65:16
+63-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:59:5-65:16
 64            android:name="com.example.onlineauctionsystem.SignUp"
-64-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:60:9-31
+64-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:60:9-31
 65            android:exported="false" >
-65-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:61:9-33
+65-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:61:9-33
 66            <meta-data
-66-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+66-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 67                android:name="android.app.lib_name"
-67-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+67-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 68                android:value="" />
-68-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+68-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 69        </activity>
 70        <activity
-70-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:66:5-78:16
+70-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:66:5-78:16
 71            android:name="com.example.onlineauctionsystem.Login"
-71-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:67:9-30
+71-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:67:9-30
 72            android:exported="true" >
-72-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:68:9-32
+72-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:68:9-32
 73            <intent-filter>
-73-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:69:9-73:25
+73-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:69:9-73:25
 74                <action android:name="android.intent.action.MAIN" />
-74-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:70:13-65
-74-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:70:21-62
+74-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:70:13-65
+74-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:70:21-62
 75
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:72:13-73
-76-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:72:23-70
+76-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:72:13-73
+76-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:72:23-70
 77            </intent-filter>
 78
 79            <meta-data
-79-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+79-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 80                android:name="android.app.lib_name"
-80-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+80-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 81                android:value="" />
-81-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+81-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 82        </activity>
 83        <activity
-83-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:79:5-91:16
+83-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:79:5-91:16
 84            android:name="com.example.onlineauctionsystem.MainActivity"
-84-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:80:9-37
+84-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:80:9-37
 85            android:exported="true" >
-85-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:81:9-32
+85-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:81:9-32
 86            <intent-filter>
-86-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:69:9-73:25
+86-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:69:9-73:25
 87                <action android:name="android.intent.action.MAIN" />
-87-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:70:13-65
-87-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:70:21-62
+87-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:70:13-65
+87-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:70:21-62
 88
 89                <category android:name="android.intent.category.LAUNCHER" />
-89-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:72:13-73
-89-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:72:23-70
+89-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:72:13-73
+89-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:72:23-70
 90            </intent-filter>
 91
 92            <meta-data
-92-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+92-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 93                android:name="android.app.lib_name"
-93-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+93-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 94                android:value="" />
-94-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+94-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 95        </activity>
 96        <activity
-96-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:93:5-101:16
+96-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:93:5-101:16
 97            android:name="com.example.onlineauctionsystem.Otp"
-97-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:94:9-59
+97-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:94:9-59
 98            android:exported="false" >
-98-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:95:9-33
+98-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:95:9-33
 99            <meta-data
-99-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:34:9-36:32
+99-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:34:9-36:32
 100                android:name="android.app.lib_name"
-100-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:35:13-48
+100-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:35:13-48
 101                android:value="" />
-101-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuction\OnlineAuctionSystem\OnlineAuction\app\src\main\AndroidManifest.xml:36:13-29
+101-->D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionGit\OnlineAuctionApp\app\src\main\AndroidManifest.xml:36:13-29
 102        </activity>
 103
 104        <provider

@@ -17,9 +17,12 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.android.volley.NetworkResponse;
@@ -36,7 +39,10 @@ import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class CreateProductListing extends AppCompatActivity {
@@ -47,9 +53,12 @@ public class CreateProductListing extends AppCompatActivity {
     private static final int PICK_IMAGE_REQUEST =1 ;
     private Bitmap bitmap = null;
     private String filePath;
-    private EditText name,description,type,price,location;
+    private EditText name,description,price,location;
+    private Spinner type;
     private RequestQueue que;
     private Button add;
+    private int cid = -1;
+    private String tp = null;
 
 
     @Override
@@ -67,6 +76,30 @@ public class CreateProductListing extends AppCompatActivity {
 
         que = Volley.newRequestQueue(this);
         que.start();
+        List<String> str = new ArrayList<>();
+        for(int i=0;i<Helper.list.size();i++){
+            Log.e("NAME",Helper.list.get(i).name);
+            str.add(Helper.list.get(i).name);
+            ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(getApplicationContext(),
+                    android.R.layout.simple_spinner_item, str);
+            spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            type.setAdapter(spinnerArrayAdapter);
+        }
+
+
+        type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> arg0, View arg1,
+                                       int i, long id) {
+
+                     cid = Helper.list.get(i).id;
+                     tp = Helper.list.get(i).name;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> arg0) {
+            }
+        });
 
         img.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,7 +130,9 @@ public class CreateProductListing extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                if(bitmap != null){
-                   uploadBitmap(bitmap);
+                   if(tp != null && cid != -1)
+
+                      uploadBitmap(bitmap);
                }else{
                    Toast.makeText(CreateProductListing.this, "Select Image!", Toast.LENGTH_SHORT).show();
                }
@@ -170,7 +205,8 @@ public class CreateProductListing extends AppCompatActivity {
         obj.put("uid",Helper.uid);
         obj.put("description",description.getText().toString());
         obj.put("price",Double.parseDouble(price.getText().toString()));
-        obj.put("type",type.getText().toString());
+        obj.put("type",tp);
+        obj.put("cid",cid);
         obj.put("location",location.getText().toString());
 
         JsonObjectRequest req = new JsonObjectRequest(Request.Method.POST, url, obj, new Response.Listener<JSONObject>() {

@@ -1,362 +1,406 @@
 [
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_search_24.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/search_24.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_camera.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\camera.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_msg_balance.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/msg_balance.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_sell.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\sell.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_create_24.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/create_24.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_sell.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\sell.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_ic_baseline_history_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/ic_baseline_history_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_create_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\create_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_category.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\category.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_create_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/create_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_product_detail.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_product_detail.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_wallet.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/wallet.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-v24_logo.jpg.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\drawable-v24\\logo.jpg"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_otp.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_otp.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_make_offer.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_make_offer.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_ic_baseline_history_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/ic_baseline_history_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_camera.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\camera.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_msg_balance.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\msg_balance.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_search_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/search_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_search_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/search_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-v24_logo2.jpg.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/drawable-v24/logo2.jpg"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_create_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\create_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_msg_balance.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/msg_balance.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_sell.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\sell.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_create_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/create_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_search_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\search_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_ic_baseline_history_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/ic_baseline_history_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_fragment_sale_product.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\fragment_sale_product.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-v24_logo.jpg.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/drawable-v24/logo.jpg"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_category.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\category.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_ic_baseline_history_24.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/ic_baseline_history_24.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_category.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\category.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_wallet.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\wallet.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_sell.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\sell.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_msg_balance.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/msg_balance.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_ic_baseline_history_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\ic_baseline_history_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_sell.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/sell.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_msg_balance.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\msg_balance.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_wallet.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/wallet.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_ic_baseline_history_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\ic_baseline_history_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_search_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\search_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_wallet.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\wallet.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_msg_balance.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\msg_balance.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_camera.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_ic_baseline_history_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\ic_baseline_history_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_fragment_history_product.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\fragment_history_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_camera.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_wallet.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\wallet.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_create_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\create_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_category.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\category.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_search_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\search_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_header_layout.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_sell.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\sell.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_wallet.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_ic_baseline_history_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\ic_baseline_history_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_category.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\category.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_search_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\search_24.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_make_offer.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_make_offer.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_camera.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_list_row.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_wallet.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\wallet.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_msg_balance.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\msg_balance.png"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_search_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\search_24.png"
+    },
+    {
+        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_row_category.xml.flat",
+        "source": "com.example.onlineauctionsystem.app-main-31:/layout/row_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_msg_balance.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\msg_balance.png"
+    },
+    {
+        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_fragment_category.xml.flat",
+        "source": "com.example.onlineauctionsystem.app-main-31:/layout/fragment_category.xml"
     },
     {
         "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_create_product_listing.xml.flat",
         "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_create_product_listing.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_ic_baseline_history_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/ic_baseline_history_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_sales_row.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\sales_row.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_product_list.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_product_list.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_create_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\create_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_create_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/create_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_create_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/create_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_sell.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/sell.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_msg_balance.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\msg_balance.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_camera.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/camera.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_list_row.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/list_row.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_sell.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\sell.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_create_product_listing.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_create_product_listing.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_search_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/search_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_camera.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\camera.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_search_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/search_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_product_list.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_product_list.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_content_main.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/content_main.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_create_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\create_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_camera.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/camera.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_category.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\category.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_camera.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/camera.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_category.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\category.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_main.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xhdpi_camera.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xhdpi\\camera.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_sign_up.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_sign_up.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_otp.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_otp.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/menu_navigation_menu.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/menu/navigation_menu.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_sell.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/sell.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_search_24.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\search_24.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_search_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/search_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_create_24.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\create_24.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_app_bar_main.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_ic_baseline_history_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/ic_baseline_history_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_msg_balance.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/msg_balance.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_wallet.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\wallet.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_sell.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/sell.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_search_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\search_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_ic_baseline_history_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\ic_baseline_history_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_sales_row.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/sales_row.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-ldpi_wallet.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-ldpi\\wallet.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_msg_balance.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/msg_balance.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_create_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\create_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_sell.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/sell.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_camera.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/camera.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-v24_logo2.jpg.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\drawable-v24\\logo2.jpg"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_msg_balance.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/msg_balance.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_fragment_add_category.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\fragment_add_category.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_sell.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/sell.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-xxxhdpi_ic_baseline_history_24.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-xxxhdpi\\ic_baseline_history_24.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_create_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/create_24.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\layout_fragment_wallet_product.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\layout\\fragment_wallet_product.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-anydpi-v21_camera.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-anydpi-v21/camera.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_msg_balance.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\msg_balance.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-anydpi-v21_ic_baseline_history_24.xml.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-anydpi-v21\\ic_baseline_history_24.xml"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_wallet.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/wallet.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\drawable-hdpi_sell.png.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-pngs-24:\\drawable-hdpi\\sell.png"
     },
     {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_wallet.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/wallet.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_wallet.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/wallet.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_fragment_sale_product.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/fragment_sale_product.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_create_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/create_24.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_wallet.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/wallet.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_fragment_history_product.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/fragment_history_product.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxhdpi_sell.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxhdpi/sell.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_header_layout.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/header_layout.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-hdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_camera.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/camera.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_login.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_msg_balance.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/msg_balance.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_fragment_wallet_product.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/fragment_wallet_product.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-mdpi_ic_baseline_history_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-mdpi/ic_baseline_history_24.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-ldpi_wallet.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-ldpi/wallet.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/layout_activity_product_detail.xml.flat",
-        "source": "com.example.onlineauctionsystem.app-main-31:/layout/activity_product_detail.xml"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xhdpi_search_24.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xhdpi/search_24.png"
-    },
-    {
-        "merged": "com.example.onlineauctionsystem.app-merged_res-29:/drawable-xxxhdpi_camera.png.flat",
-        "source": "com.example.onlineauctionsystem.app-pngs-24:/drawable-xxxhdpi/camera.png"
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
     }
 ]

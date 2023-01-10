@@ -43,7 +43,7 @@ public class SaleAdapter extends ArrayAdapter {
         name.setText(list.get(position).name);
 
         Picasso.get().load(Helper.imgUrl+list.get(position).img).into(img);
-
+        Log.e("IMG",Helper.imgUrl+list.get(position).img);
         return  convertView;
     }
 }

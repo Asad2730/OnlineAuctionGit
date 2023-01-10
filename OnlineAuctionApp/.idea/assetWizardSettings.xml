@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../../Apps/Android/sdk/icons/material/materialicons/search/baseline_search_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../../../Apps/Android/sdk/icons/material/materialicons/category/baseline_category_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -29,7 +29,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="3f403f" />
-                            <entry key="outputName" value="search_24" />
+                            <entry key="outputName" value="category" />
                             <entry key="sourceFile" value="D:\Projects\HarvardX\AppDevelopments\FYP\OnlineAuctionSystem" />
                           </map>
                         </option>

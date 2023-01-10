@@ -2553,6 +2553,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable camera
+drawable category
 drawable create_24
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2753,6 +2754,7 @@ id callMeasure
 id cancel_button
 id card_view
 id carryVelocity
+id category
 id center
 id centerCrop
 id centerInside
@@ -3308,6 +3310,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_add_category
+layout fragment_category
 layout fragment_history_product
 layout fragment_sale_product
 layout fragment_wallet_product
@@ -3367,6 +3371,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout row_category
 layout sales_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

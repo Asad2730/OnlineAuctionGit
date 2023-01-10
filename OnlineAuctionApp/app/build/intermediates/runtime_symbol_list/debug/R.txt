@@ -2552,6 +2552,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f070079
 int drawable btn_radio_on_mtrl 0x7f07007a
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f07007b
 int drawable camera 0x7f07007c
+int drawable category 0x7f0700dc
 int drawable create_24 0x7f07007d
 int drawable design_fab_background 0x7f07007e
 int drawable design_ic_visibility 0x7f07007f
@@ -2752,6 +2753,7 @@ int id callMeasure 0x7f080065
 int id cancel_button 0x7f080066
 int id card_view 0x7f080067
 int id carryVelocity 0x7f080068
+int id category 0x7f080200
 int id center 0x7f080069
 int id centerCrop 0x7f08006a
 int id centerInside 0x7f08006b
@@ -3307,6 +3309,8 @@ int layout design_navigation_menu 0x7f0b0032
 int layout design_navigation_menu_item 0x7f0b0033
 int layout design_text_input_end_icon 0x7f0b0034
 int layout design_text_input_start_icon 0x7f0b0035
+int layout fragment_add_category 0x7f0b0076
+int layout fragment_category 0x7f0b0077
 int layout fragment_history_product 0x7f0b0036
 int layout fragment_sale_product 0x7f0b0037
 int layout fragment_wallet_product 0x7f0b0038
@@ -3366,6 +3370,7 @@ int layout notification_template_custom_big 0x7f0b006d
 int layout notification_template_icon_group 0x7f0b006e
 int layout notification_template_part_chronometer 0x7f0b006f
 int layout notification_template_part_time 0x7f0b0070
+int layout row_category 0x7f0b0078
 int layout sales_row 0x7f0b0071
 int layout select_dialog_item_material 0x7f0b0072
 int layout select_dialog_multichoice_material 0x7f0b0073

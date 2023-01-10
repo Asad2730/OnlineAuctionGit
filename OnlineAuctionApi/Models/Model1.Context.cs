@@ -13,10 +13,10 @@ namespace WebApplication1.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AuctionDbEntities5 : DbContext
+    public partial class AuctionDbEntities6 : DbContext
     {
-        public AuctionDbEntities5()
-            : base("name=AuctionDbEntities5")
+        public AuctionDbEntities6()
+            : base("name=AuctionDbEntities6")
         {
         }
     
@@ -26,8 +26,9 @@ namespace WebApplication1.Models
         }
     
         public virtual DbSet<Offer> Offers { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Wallet> Wallets { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
     }
 }
