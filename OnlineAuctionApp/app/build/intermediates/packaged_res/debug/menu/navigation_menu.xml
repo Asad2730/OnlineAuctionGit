@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/sale_product"
+        android:icon="@drawable/sell"
+        android:title="Sale product" />
+
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/wallet"
+        android:title="Wallet" />
+
+    <item
+        android:id="@+id/createProduct"
+        android:icon="@drawable/create_24"
+        android:title="CreateProduct" />
+
+</menu>
