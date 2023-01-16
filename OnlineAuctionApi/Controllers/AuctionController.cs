@@ -64,6 +64,7 @@ namespace WebApplication1.Controllers
                 q.name = p.name;
                 q.description = p.description;
                 q.cid = p.cid;
+                q.p_Date = p.p_Date;
                 db.SaveChanges();
                 return Request.CreateResponse(HttpStatusCode.OK, q);
             }
@@ -78,9 +79,7 @@ namespace WebApplication1.Controllers
         {
             try
             {
-
-                var request = HttpContext.Current.Request;
-                
+                var request = HttpContext.Current.Request;   
                 var photo = request.Files["image"];
 
                 FileInfo fileInfo = new FileInfo(photo.FileName);
@@ -116,7 +115,103 @@ namespace WebApplication1.Controllers
             }
         }
 
+        [HttpPost]
+        public HttpResponseMessage insertFavourite(int uid, int pid)
+        {
+            try
+            {   
+                var q = db.Favourites.FirstOrDefault(i=>i.uid == uid);
+                if(q == null)
+                {   
+                    Favourite f = new Favourite();
+                    f.uid = uid;
+                    f.pid = pid;
+                    
+                    db.Favourites.Add(f);
+                    db.SaveChanges();
+                    return Request.CreateResponse(HttpStatusCode.OK, "Product added to favourites!");
+                }
+                 db.Favourites.Remove(q);
+                 db.SaveChanges();   
+                return Request.CreateResponse(HttpStatusCode.OK, "Product removed from favourites!");
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
 
+        [HttpGet]
+        public HttpResponseMessage getFavourite(int uid)
+        {
+            try
+            {
+                var q = db.Products.Join(db.Favourites,p=>p.Id,f=>f.pid,
+                    (p,f)=>new
+                    {
+                        p,f
+                    }).Where(w=>w.f.uid == uid).Select(s=>new
+                    {   
+                        id = s.f.id,
+                        uid = s.p.uid,
+                        name = s.p.name,
+                        price = s.p.price,
+                        description = s.p.description,
+                        type = s.p.type,
+                        image = s.p.image,
+                        location = s.p.location,          
+
+                    });
+                return Request.CreateResponse(HttpStatusCode.OK, q.ToList());
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+        [HttpGet]
+        public HttpResponseMessage sellProduct(string date)
+        {
+            try
+            {   
+                var q = db.Products.Where(i => i.p_Date == date).ToList();
+               
+                foreach (var i in q)
+                {
+                    var o = db.Offers.Where(w=>w.pid == i.Id).ToList();
+                    Offer of = o.FirstOrDefault(f=>f.pid == i.Id);
+                    double price = (double)i.price;
+                    foreach (var y in o)
+                    {
+                        
+                       if(y.price > price)
+                        {
+                            of = y;
+                        }                       
+                        
+                    }
+
+                    if(of != null)
+                    {
+                        var pr = db.Products.FirstOrDefault(f=>f.Id == of.pid);
+                        db.Offers.Remove(of);
+                       // db.Products.Remove(pr);
+                        Sold s = new Sold();
+                        s.bid = of.bid;
+                        s.sid = of.sid;
+                        s.pid = of.pid;
+                        db.Solds.Add(s);
+                        db.SaveChanges();
+                    }
+                }
+                return Request.CreateResponse(HttpStatusCode.OK, "OK");
+            }
+            catch (Exception e)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
 
         [HttpGet]
         public HttpResponseMessage getCategory()
@@ -138,7 +233,7 @@ namespace WebApplication1.Controllers
             try
             {
 
-                var q = db.Products.Where(i=>i.uid != uid && i.cid == cid).ToList();
+                var q = db.Products.Where(i=>i.uid != uid && i.cid == cid && i.cid != null).ToList();
                 return Request.CreateResponse(HttpStatusCode.OK, q);
             }
             catch (Exception ex)

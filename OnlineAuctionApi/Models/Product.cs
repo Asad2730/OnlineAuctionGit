@@ -23,5 +23,6 @@ namespace WebApplication1.Models
         public string location { get; set; }
         public string image { get; set; }
         public Nullable<int> cid { get; set; }
+        public string p_Date { get; set; }
     }
 }

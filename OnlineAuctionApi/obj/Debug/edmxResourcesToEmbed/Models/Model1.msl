@@ -39,9 +39,19 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Favourites">
+      <EntityTypeMapping TypeName="AuctionDbModel.Favourite">
+        <MappingFragment StoreEntitySet="Favourite">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Products">
       <EntityTypeMapping TypeName="AuctionDbModel.Product">
         <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="p_Date" ColumnName="p_Date" />
           <ScalarProperty Name="cid" ColumnName="cid" />
           <ScalarProperty Name="image" ColumnName="image" />
           <ScalarProperty Name="location" ColumnName="location" />
@@ -51,6 +61,16 @@
           <ScalarProperty Name="name" ColumnName="name" />
           <ScalarProperty Name="uid" ColumnName="uid" />
           <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solds">
+      <EntityTypeMapping TypeName="AuctionDbModel.Sold">
+        <MappingFragment StoreEntitySet="Sold">
+          <ScalarProperty Name="bid" ColumnName="bid" />
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

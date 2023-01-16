@@ -7,6 +7,14 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="name" Type="varchar" MaxLength="50" />
   </EntityType>
+  <EntityType Name="Favourite">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="uid" Type="int" />
+    <Property Name="pid" Type="int" />
+  </EntityType>
   <EntityType Name="Offer">
     <Key>
       <PropertyRef Name="id" />
@@ -30,6 +38,16 @@
     <Property Name="location" Type="varchar" MaxLength="50" />
     <Property Name="image" Type="varchar(max)" />
     <Property Name="cid" Type="int" />
+    <Property Name="p_Date" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Sold">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sid" Type="int" />
+    <Property Name="pid" Type="int" />
+    <Property Name="bid" Type="int" />
   </EntityType>
   <EntityType Name="User">
     <Key>
@@ -50,8 +68,10 @@
   </EntityType>
   <EntityContainer Name="AuctionDbModelStoreContainer">
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Favourite" EntityType="Self.Favourite" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Offer" EntityType="Self.Offer" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sold" EntityType="Self.Sold" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Wallet" EntityType="Self.Wallet" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

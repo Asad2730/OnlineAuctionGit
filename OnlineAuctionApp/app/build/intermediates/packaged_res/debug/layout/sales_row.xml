@@ -28,5 +28,24 @@
            android:textStyle="bold"
            android:text="TextView" />
 
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+              <Button
+                  android:id="@+id/favourite"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Favourite" />
+
+              <Button
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/detail"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Details" />
+       </LinearLayout>
+
+
 
 </LinearLayout>

@@ -33,6 +33,13 @@
         android:theme="@style/Theme.OnlineAuctionSystem"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.onlineauctionsystem.FavouriteActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.onlineauctionsystem.CreateProductListing"
             android:exported="false" >
             <meta-data
@@ -116,6 +123,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

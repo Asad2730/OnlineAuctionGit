@@ -64,14 +64,7 @@ public class SaleProduct extends Fragment {
         loadList();
 
 
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(requireContext(),ProductList.class);
-                Helper.selected_product = list.get(i);
-                startActivity(intent);
-            }
-        });
+
 
 
          searchView.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +93,6 @@ public class SaleProduct extends Fragment {
             public void onResponse(JSONArray response) {
 
                 for(int i=0;i< response.length();i++){
-
                     try {
                         sales = new Sales();
                         sales.id = Integer.parseInt(String.valueOf(response.getJSONObject(i).getInt("Id")));
@@ -110,9 +102,8 @@ public class SaleProduct extends Fragment {
                         sales.price = Double.parseDouble(String.valueOf(response.getJSONObject(i).getDouble("price")));
                         sales.uid = Integer.parseInt(String.valueOf(response.getJSONObject(i).getInt("uid")));
                         list.add(sales);
-                        adapter = new SaleAdapter(getContext(),list);
+                        adapter = new SaleAdapter(getContext(),list,false);
                         lv.setAdapter(adapter);
-
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }

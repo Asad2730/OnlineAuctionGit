@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.onlineauctionsystem.app-mergeDebugResources-27:/values-v25/values-v25.xml",
+            "outputFile": "com.example.onlineauctionsystem.app-mergeDebugResources-39:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asads\\.gradle\\caches\\transforms-3\\034f511a629c0fda711794a09fef4382\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
+                    "source": "D:\\Apps\\Java\\jdk1.8.0_201\\caches\\transforms-3\\034f511a629c0fda711794a09fef4382\\transformed\\appcompat-1.5.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

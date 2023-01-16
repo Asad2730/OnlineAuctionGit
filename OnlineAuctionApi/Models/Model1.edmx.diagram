@@ -9,7 +9,9 @@
         <EntityTypeShape EntityType="AuctionDbModel.User" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AuctionDbModel.Wallet" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AuctionDbModel.Category" Width="1.5" PointX="3.375" PointY="3.75" />
-        <EntityTypeShape EntityType="AuctionDbModel.Product" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="AuctionDbModel.Favourite" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="AuctionDbModel.Product" Width="1.5" PointX="3.375" PointY="6.75" />
+        <EntityTypeShape EntityType="AuctionDbModel.Sold" Width="1.5" PointX="5.375" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

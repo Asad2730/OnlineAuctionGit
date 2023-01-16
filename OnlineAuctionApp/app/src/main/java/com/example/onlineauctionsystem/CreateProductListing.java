@@ -5,9 +5,12 @@ import static android.content.ContentValues.TAG;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.DialogFragment;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.DatePickerDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -20,9 +23,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.NetworkResponse;
@@ -40,10 +45,15 @@ import org.json.JSONObject;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import androidx.annotation.RequiresApi;
+import android.os.Build;
+import java.time.LocalDateTime;
+
 
 public class CreateProductListing extends AppCompatActivity {
 
@@ -56,9 +66,11 @@ public class CreateProductListing extends AppCompatActivity {
     private EditText name,description,price,location;
     private Spinner type;
     private RequestQueue que;
-    private Button add;
+    private Button add,date;
     private int cid = -1;
     private String tp = null;
+    static TextView sDate;
+
 
 
     @Override
@@ -73,6 +85,8 @@ public class CreateProductListing extends AppCompatActivity {
         price = findViewById(R.id.price);
         location = findViewById(R.id.location);
         add = findViewById(R.id.add);
+        date = findViewById(R.id.date);
+        sDate = findViewById(R.id.sDate);
 
         que = Volley.newRequestQueue(this);
         que.start();
@@ -86,6 +100,13 @@ public class CreateProductListing extends AppCompatActivity {
             type.setAdapter(spinnerArrayAdapter);
         }
 
+        date.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DialogFragment date = new CreateProductListing.StartDate();
+                date.show(getSupportFragmentManager(), "datePicker");
+            }
+        });
 
         type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -139,6 +160,7 @@ public class CreateProductListing extends AppCompatActivity {
             }
         });
     }
+
 
     private void showFileChooser() {
         Intent intent = new Intent();
@@ -208,6 +230,7 @@ public class CreateProductListing extends AppCompatActivity {
         obj.put("type",tp);
         obj.put("cid",cid);
         obj.put("location",location.getText().toString());
+        obj.put("p_Date",sDate.getText().toString());
 
         JsonObjectRequest req = new JsonObjectRequest(Request.Method.POST, url, obj, new Response.Listener<JSONObject>() {
             @Override
@@ -262,4 +285,29 @@ public class CreateProductListing extends AppCompatActivity {
     }
 
 
+    public static class StartDate extends DialogFragment
+            implements DatePickerDialog.OnDateSetListener {
+        @RequiresApi(api = Build.VERSION_CODES.O)
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            final LocalDateTime nw = LocalDateTime.now();
+            // final Calendar c = Calendar.getInstance();
+            int year = nw.getYear();
+            int month = nw.getMonthValue();
+            int day = nw.getDayOfMonth();
+            return new DatePickerDialog(getActivity(), this, year, month, day);
+        }
+
+        @RequiresApi(api = Build.VERSION_CODES.O)
+        public void onDateSet(DatePicker view, int year, int month, int day) {
+            month++;
+            String date = day+"/"+month+"/"+year;
+            Log.d("DATE",date);
+            sDate.setText(date);
+        }
+
+    }
+
+
 }
+

@@ -12,6 +12,14 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="name" Type="varchar" MaxLength="50" />
         </EntityType>
+        <EntityType Name="Favourite">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="uid" Type="int" />
+          <Property Name="pid" Type="int" />
+        </EntityType>
         <EntityType Name="Offer">
           <Key>
             <PropertyRef Name="id" />
@@ -35,6 +43,16 @@
           <Property Name="location" Type="varchar" MaxLength="50" />
           <Property Name="image" Type="varchar(max)" />
           <Property Name="cid" Type="int" />
+          <Property Name="p_Date" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Sold">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sid" Type="int" />
+          <Property Name="pid" Type="int" />
+          <Property Name="bid" Type="int" />
         </EntityType>
         <EntityType Name="User">
           <Key>
@@ -55,8 +73,10 @@
         </EntityType>
         <EntityContainer Name="AuctionDbModelStoreContainer">
           <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Favourite" EntityType="Self.Favourite" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Offer" EntityType="Self.Offer" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sold" EntityType="Self.Sold" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Wallet" EntityType="Self.Wallet" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
@@ -96,7 +116,9 @@
           <EntitySet Name="Users" EntityType="Self.User" />
           <EntitySet Name="Wallets" EntityType="Self.Wallet" />
           <EntitySet Name="Categories" EntityType="AuctionDbModel.Category" />
+          <EntitySet Name="Favourites" EntityType="AuctionDbModel.Favourite" />
           <EntitySet Name="Products" EntityType="AuctionDbModel.Product" />
+          <EntitySet Name="Solds" EntityType="AuctionDbModel.Sold" />
         </EntityContainer>
         <EntityType Name="Category">
           <Key>
@@ -104,6 +126,14 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Favourite">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="uid" Type="Int32" />
+          <Property Name="pid" Type="Int32" />
         </EntityType>
         <EntityType Name="Product">
           <Key>
@@ -118,6 +148,16 @@
           <Property Name="location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="image" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Name="cid" Type="Int32" />
+          <Property Name="p_Date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Sold">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sid" Type="Int32" />
+          <Property Name="pid" Type="Int32" />
+          <Property Name="bid" Type="Int32" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -163,9 +203,19 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Favourites">
+            <EntityTypeMapping TypeName="AuctionDbModel.Favourite">
+              <MappingFragment StoreEntitySet="Favourite">
+                <ScalarProperty Name="pid" ColumnName="pid" />
+                <ScalarProperty Name="uid" ColumnName="uid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Products">
             <EntityTypeMapping TypeName="AuctionDbModel.Product">
               <MappingFragment StoreEntitySet="Product">
+                <ScalarProperty Name="p_Date" ColumnName="p_Date" />
                 <ScalarProperty Name="cid" ColumnName="cid" />
                 <ScalarProperty Name="image" ColumnName="image" />
                 <ScalarProperty Name="location" ColumnName="location" />
@@ -175,6 +225,16 @@
                 <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="uid" ColumnName="uid" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Solds">
+            <EntityTypeMapping TypeName="AuctionDbModel.Sold">
+              <MappingFragment StoreEntitySet="Sold">
+                <ScalarProperty Name="bid" ColumnName="bid" />
+                <ScalarProperty Name="pid" ColumnName="pid" />
+                <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

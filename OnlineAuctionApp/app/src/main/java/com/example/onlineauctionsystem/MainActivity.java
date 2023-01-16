@@ -1,6 +1,7 @@
 package com.example.onlineauctionsystem;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -11,10 +12,19 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.material.navigation.NavigationView;
+
+import java.time.LocalDateTime;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,13 +32,16 @@ public class MainActivity extends AppCompatActivity {
     public ActionBarDrawerToggle toggle;
     public NavigationView navView;
     public Toolbar toolbar;
+    private RequestQueue queue;
 
-
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        queue = Volley.newRequestQueue(this);
+        queue.start();
         drawerLayout = findViewById(R.id.my_drawer_layout);
         navView = findViewById(R.id.navigationView);
         toolbar = findViewById(R.id.toolbar);
@@ -40,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         toggle.syncState();
 
         loadFragment(new CategoryFragment());
-
+        sellProduct();
 
        navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -55,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                else if(id == R.id.category){
                    loadFragment(new AddCategoryFragment());
+               }
+               else if(id == R.id.favourite){
+                   startActivity(new Intent(getApplicationContext(),FavouriteActivity.class));
                }
                else{
                  startActivity(new Intent(getApplicationContext(),CreateProductListing.class));
@@ -91,5 +107,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+   @RequiresApi(api = Build.VERSION_CODES.O)
+   private void sellProduct(){
+       final LocalDateTime nw = LocalDateTime.now();
+       int year = nw.getYear();
+       int month = nw.getMonthValue();
+       int day = nw.getDayOfMonth();
+       String date = day+"/"+month+"/"+year;
+       Log.e("DATE::",date);
+        String url = Helper.ip+"sellProduct?date="+date;
+       StringRequest request = new StringRequest(Request.Method.GET, url,
+               new Response.Listener<String>() {
+           @Override
+           public void onResponse(String response) {
+               Log.e("RESPONSE",response);
+           }
+       },null);
+
+       queue.add(request);
+   }
 
 }
