@@ -63,7 +63,9 @@ public class ProductAdapter extends ArrayAdapter {
                                 @Override
                                 public void onResponse(String response) {
                                     Toast.makeText(context, response, Toast.LENGTH_SHORT).show();
-                                    context.startActivity(new Intent(context,MainActivity.class));
+                                    Intent i = new Intent(new Intent(context,MainActivity.class));
+                                    i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                    context.startActivity(i);
                                 }
                             },null);
                     que.add(request);
