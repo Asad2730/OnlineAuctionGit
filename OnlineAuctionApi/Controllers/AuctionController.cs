@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Security.Cryptography;
 using System.Web;
 using System.Web.Http;
 using WebApplication1.Models;
@@ -235,6 +236,39 @@ namespace WebApplication1.Controllers
 
                 var q = db.Products.Where(i=>i.uid != uid && i.cid == cid && i.cid != null).ToList();
                 return Request.CreateResponse(HttpStatusCode.OK, q);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+
+        [HttpGet]
+        public HttpResponseMessage getMyProducts(int uid)
+        {
+            try
+            {
+
+                var q = db.Products.Where(i => i.uid == uid ).ToList();
+                return Request.CreateResponse(HttpStatusCode.OK, q);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public HttpResponseMessage deleteProduct(int id)
+        {
+            try
+            {
+
+                var q = db.Products.FirstOrDefault(i => i.Id == id);
+                db.Products.Remove(q);
+                db.SaveChanges();
+                return Request.CreateResponse(HttpStatusCode.OK, "Product Deleted!");
             }
             catch (Exception ex)
             {

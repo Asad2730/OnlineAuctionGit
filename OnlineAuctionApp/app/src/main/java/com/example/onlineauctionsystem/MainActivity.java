@@ -71,8 +71,10 @@ public class MainActivity extends AppCompatActivity {
                }
                else if(id == R.id.favourite){
                    startActivity(new Intent(getApplicationContext(),FavouriteActivity.class));
-               }
-               else{
+               } else if (id == R.id.myProducts) {
+                   loadFragment(new MyProductFragment());
+
+               } else{
                  startActivity(new Intent(getApplicationContext(),CreateProductListing.class));
               }
 

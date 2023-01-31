@@ -2852,6 +2852,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id deltaRelative
 id dependency_ordering
 id description
@@ -3018,6 +3019,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myProducts
 id my_drawer_layout
 id name
 id nav_controller_view_tag
@@ -3387,6 +3389,7 @@ layout fragment_add_category
 layout fragment_category
 layout fragment_first
 layout fragment_history_product
+layout fragment_my_product
 layout fragment_sale_product
 layout fragment_second
 layout fragment_wallet_product
@@ -3446,6 +3449,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout product_items
 layout row_category
 layout sales_row
 layout select_dialog_item_material

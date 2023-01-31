@@ -24,6 +24,11 @@
         android:title="Add Category" />
 
     <item
+        android:id="@+id/myProducts"
+        android:icon="@drawable/create_24"
+        android:title="My Products" />
+
+    <item
         android:id="@+id/favourite"
         android:icon="@drawable/favourite"
         android:title="Favourites" />

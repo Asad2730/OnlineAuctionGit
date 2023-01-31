@@ -34,6 +34,7 @@ id category
 id container_content_main
 id createProduct
 id date
+id delete
 id description
 id detail
 id editTextTextEmailAddress
@@ -46,6 +47,7 @@ id img
 id layout
 id listview
 id location
+id myProducts
 id my_drawer_layout
 id name
 id nav_graph
@@ -90,11 +92,13 @@ layout fragment_add_category
 layout fragment_category
 layout fragment_first
 layout fragment_history_product
+layout fragment_my_product
 layout fragment_sale_product
 layout fragment_second
 layout fragment_wallet_product
 layout header_layout
 layout list_row
+layout product_items
 layout row_category
 layout sales_row
 menu navigation_menu
