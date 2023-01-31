@@ -33,8 +33,7 @@ public class MyProductFragment extends Fragment {
     private ProductAdapter adapter;
 
     public MyProductFragment() {
-        que = Volley.newRequestQueue(requireContext());
-        que.start();
+
     }
 
 
@@ -42,6 +41,8 @@ public class MyProductFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        que = Volley.newRequestQueue(requireContext());
+        que.start();
         view = inflater.inflate(R.layout.fragment_my_product, container, false);
         lv = view.findViewById(R.id.listview);
         loadList();

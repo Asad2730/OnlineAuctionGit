@@ -52,7 +52,6 @@ public class ProductAdapter extends ArrayAdapter {
         img = convertView.findViewById(R.id.img);
         name = convertView.findViewById(R.id.name);
         delete = convertView.findViewById(R.id.delete);
-
         name.setText(list.get(position).name);
 
         delete.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +63,7 @@ public class ProductAdapter extends ArrayAdapter {
                                 @Override
                                 public void onResponse(String response) {
                                     Toast.makeText(context, response, Toast.LENGTH_SHORT).show();
-                                    list.remove(position);
+                                    context.startActivity(new Intent(context,MainActivity.class));
                                 }
                             },null);
                     que.add(request);
