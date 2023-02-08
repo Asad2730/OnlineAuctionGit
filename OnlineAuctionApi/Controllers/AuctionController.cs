@@ -101,6 +101,8 @@ namespace WebApplication1.Controllers
             }
         }
 
+
+
         [HttpPost]
         public HttpResponseMessage addCategory(Category c)
         {
@@ -314,6 +316,31 @@ namespace WebApplication1.Controllers
                 return Request.CreateResponse(HttpStatusCode.OK, q);
             }
             catch(Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+
+
+        [HttpGet]
+
+        public HttpResponseMessage history()
+        {
+            try
+            {
+                var q = db.Offers.Join(db.Products, o => o.pid, p => p.Id,
+                    (o, p) => new
+                    {
+                        name = p.name,
+                        price = p.price,
+                        image = p.image,
+                        offer = o.price,
+                    });
+               
+                return Request.CreateResponse(HttpStatusCode.OK, q.ToList());
+            }
+            catch (Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
             }

@@ -33,5 +33,14 @@
         android:icon="@drawable/favourite"
         android:title="Favourites" />
 
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/history"
+        android:title="History" />
 
 </menu>

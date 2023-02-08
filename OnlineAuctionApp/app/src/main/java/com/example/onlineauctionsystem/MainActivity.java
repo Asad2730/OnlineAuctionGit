@@ -74,7 +74,13 @@ public class MainActivity extends AppCompatActivity {
                } else if (id == R.id.myProducts) {
                    loadFragment(new MyProductFragment());
 
-               } else{
+               }else if(id == R.id.history){
+                   loadFragment(new HistoryFragment());
+               }
+            else if(id == R.id.notification){
+               loadFragment(new HistoryFragment());
+           }
+               else{
                  startActivity(new Intent(getApplicationContext(),CreateProductListing.class));
               }
 

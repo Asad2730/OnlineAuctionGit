@@ -8,95 +8,103 @@
         "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_my_product.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_add_category.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_add_category.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_wallet_product.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_wallet_product.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_make_offer.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_make_offer.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_sign_up.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\content_main2.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\content_main2.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_wallet_product.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_wallet_product.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_product_list.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_product_list.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\app_bar_main.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_make_offer.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_make_offer.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\sales_row.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\sales_row.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_first.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_sale_product.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_sale_product.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/row_category.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/row_category.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_create_product_listing.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_create_product_listing.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_otp.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_otp.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_product_detail.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_product_detail.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_login.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\row_category.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\row_category.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_product_detail.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_product_detail.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_otp.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_otp.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/header_layout.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/header_layout.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_sign_up.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_sign_up.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/content_main.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/content_main.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_login.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_add_category.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_add_category.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_favourite.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_favourite.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/app_bar_main.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_main.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_create_product_listing.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_create_product_listing.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\activity_product_list.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\activity_product_list.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_history.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_history.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\list_row.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\list_row.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/content_main2.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/content_main2.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_category.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_category.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_sale_product.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_sale_product.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\header_layout.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\header_layout.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/activity_favourite.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/activity_favourite.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_history_product.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_history_product.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/list_row.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/list_row.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_second.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_history_product.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_history_product.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_first.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_second.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\content_main.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.4\\com.example.onlineauctionsystem.app-main-43:\\layout\\content_main.xml"
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/history_item.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/history_item.xml"
+    },
+    {
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/sales_row.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/sales_row.xml"
+    },
+    {
+        "merged": "com.example.onlineauctionsystem.app-mergeDebugResources-40:/layout/fragment_category.xml",
+        "source": "com.example.onlineauctionsystem.app-main-43:/layout/fragment_category.xml"
     }
 ]

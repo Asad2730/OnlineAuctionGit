@@ -39,7 +39,7 @@ public class Login extends AppCompatActivity {
 
         signIn = findViewById(R.id.signIn);
         register = findViewById(R.id.register);
-        
+
         email = findViewById(R.id.editTextTextEmailAddress);
         password = findViewById(R.id.editTextTextPassword);
 

@@ -3,7 +3,8 @@ package com.example.onlineauctionsystem;
 import java.util.List;
 
 public class Helper {
-    private final static String ip_address="http://192.168.10.18";
+
+    private final static String ip_address="http://192.168.100.198";
     public static  int uid;
     public static String ip = ip_address+"/OnlineAuctionApi/api/Auction/";
     public static String imgUrl = ip_address+"/OnlineAuctionApi";
