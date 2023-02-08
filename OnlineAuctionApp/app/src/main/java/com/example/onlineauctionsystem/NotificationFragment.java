@@ -41,7 +41,7 @@ public class NotificationFragment extends Fragment {
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_notification, container, false);
         lv = view.findViewById(R.id.listview);
-        lv2 = view.findViewById(R.id.listview);
+        lv2 = view.findViewById(R.id.listview2);
         queue = Volley.newRequestQueue(requireContext());
         queue.start();
         loadList();

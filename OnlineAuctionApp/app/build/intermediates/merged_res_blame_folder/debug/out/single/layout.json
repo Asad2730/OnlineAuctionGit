@@ -4,12 +4,12 @@
         "source": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_add_category.xml"
     },
     {
-        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_second.xml"
-    },
-    {
         "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_history.xml",
         "source": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-main-43:\\layout\\fragment_second.xml"
     },
     {
         "merged": "C:\\Users\\asads\\.gradle\\daemon\\7.5\\com.example.onlineauctionsystem.app-mergeDebugResources-40:\\layout\\header_layout.xml",
