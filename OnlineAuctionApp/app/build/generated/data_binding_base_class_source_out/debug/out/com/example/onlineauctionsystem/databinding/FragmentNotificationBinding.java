@@ -4,7 +4,7 @@ package com.example.onlineauctionsystem.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class FragmentNotificationBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final ListView listview;
@@ -29,7 +29,7 @@ public final class FragmentNotificationBinding implements ViewBinding {
   @NonNull
   public final TextView textView6;
 
-  private FragmentNotificationBinding(@NonNull FrameLayout rootView, @NonNull ListView listview,
+  private FragmentNotificationBinding(@NonNull LinearLayout rootView, @NonNull ListView listview,
       @NonNull ListView listview2, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.listview = listview;
@@ -39,7 +39,7 @@ public final class FragmentNotificationBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -82,7 +82,7 @@ public final class FragmentNotificationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentNotificationBinding((FrameLayout) rootView, listview, listview2,
+      return new FragmentNotificationBinding((LinearLayout) rootView, listview, listview2,
           textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
