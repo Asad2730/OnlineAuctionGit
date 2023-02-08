@@ -363,5 +363,71 @@ namespace WebApplication1.Controllers
             }
         }
 
+
+        [HttpPost]
+
+        public HttpResponseMessage addWish(wish o)
+        {
+            try
+            {
+                db.wishes.Add(o);
+                db.SaveChanges();
+                return Request.CreateResponse(HttpStatusCode.OK, o);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+
+        [HttpGet]
+
+        public HttpResponseMessage notificationWish()
+        {
+            try
+            {
+                var q = db.Products.Join(db.wishes, o => o.name, p => p.name,
+                     (o, p) => new
+                     {
+                         name = p.name,
+                         price = o.price,
+                         image = o.image,
+
+                     });
+
+                return Request.CreateResponse(HttpStatusCode.OK, q.ToList());
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet]
+
+        public HttpResponseMessage notification(int id)
+        {
+            try
+            {
+                var q = db.Solds.Join(db.Products, o => o.pid, p => p.Id,
+                   (o, p) => new
+                   {
+                       name = p.name,
+                       price = p.price,
+                       image = p.image,
+                       id = o.sid,
+                       
+                   }).Where(w=>w.id == id);
+
+                return Request.CreateResponse(HttpStatusCode.OK, q.ToList());
+               
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
     }
 }

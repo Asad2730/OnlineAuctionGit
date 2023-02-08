@@ -78,8 +78,10 @@ public class MainActivity extends AppCompatActivity {
                    loadFragment(new HistoryFragment());
                }
             else if(id == R.id.notification){
-               loadFragment(new HistoryFragment());
-           }
+               loadFragment(new NotificationFragment());
+             }else if(id == R.id.wish){
+                   loadFragment(new AddWishListFragment());
+               }
                else{
                  startActivity(new Intent(getApplicationContext(),CreateProductListing.class));
               }

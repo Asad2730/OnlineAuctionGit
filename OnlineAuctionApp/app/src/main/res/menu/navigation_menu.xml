@@ -39,6 +39,10 @@
         android:title="Notification" />
 
     <item
+        android:id="@+id/wish"
+        android:icon="@drawable/create_24"
+        android:title="Add WishList" />
+    <item
         android:id="@+id/history"
         android:icon="@drawable/history"
         android:title="History" />

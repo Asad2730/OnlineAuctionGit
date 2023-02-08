@@ -2680,6 +2680,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable notification
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2961,6 +2962,7 @@ id linear
 id listMode
 id list_item
 id listview
+id listview2
 id locale
 id location
 id ltr
@@ -3044,6 +3046,7 @@ id noState
 id none
 id normal
 id north
+id notification
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3182,6 +3185,7 @@ id textView
 id textView3
 id textView4
 id textView5
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3228,6 +3232,7 @@ id visible
 id visible_removing_fragment_view_tag
 id wallet
 id west
+id wish
 id withText
 id with_icon
 id withinBounds
@@ -3388,11 +3393,13 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_add_category
+layout fragment_add_wish_list
 layout fragment_category
 layout fragment_first
 layout fragment_history
 layout fragment_history_product
 layout fragment_my_product
+layout fragment_notification
 layout fragment_sale_product
 layout fragment_second
 layout fragment_wallet_product

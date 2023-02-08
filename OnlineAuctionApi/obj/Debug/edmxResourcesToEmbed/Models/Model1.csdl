@@ -35,6 +35,7 @@
     <EntitySet Name="Favourites" EntityType="AuctionDbModel.Favourite" />
     <EntitySet Name="Products" EntityType="AuctionDbModel.Product" />
     <EntitySet Name="Solds" EntityType="AuctionDbModel.Sold" />
+    <EntitySet Name="wishes" EntityType="AuctionDbModel.wish" />
   </EntityContainer>
   <EntityType Name="Category">
     <Key>
@@ -74,5 +75,12 @@
     <Property Name="sid" Type="Int32" />
     <Property Name="pid" Type="Int32" />
     <Property Name="bid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="wish">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

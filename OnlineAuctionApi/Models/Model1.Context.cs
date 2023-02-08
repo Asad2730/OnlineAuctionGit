@@ -32,5 +32,6 @@ namespace WebApplication1.Models
         public virtual DbSet<Favourite> Favourites { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Sold> Solds { get; set; }
+        public virtual DbSet<wish> wishes { get; set; }
     }
 }

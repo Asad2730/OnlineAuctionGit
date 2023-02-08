@@ -71,6 +71,13 @@
           <Property Name="uid" Type="int" />
           <Property Name="balance" Type="float" />
         </EntityType>
+        <EntityType Name="wish">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+        </EntityType>
         <EntityContainer Name="AuctionDbModelStoreContainer">
           <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Favourite" EntityType="Self.Favourite" Schema="dbo" store:Type="Tables" />
@@ -79,6 +86,7 @@
           <EntitySet Name="Sold" EntityType="Self.Sold" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Wallet" EntityType="Self.Wallet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="wish" EntityType="Self.wish" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -119,6 +127,7 @@
           <EntitySet Name="Favourites" EntityType="AuctionDbModel.Favourite" />
           <EntitySet Name="Products" EntityType="AuctionDbModel.Product" />
           <EntitySet Name="Solds" EntityType="AuctionDbModel.Sold" />
+          <EntitySet Name="wishes" EntityType="AuctionDbModel.wish" />
         </EntityContainer>
         <EntityType Name="Category">
           <Key>
@@ -158,6 +167,13 @@
           <Property Name="sid" Type="Int32" />
           <Property Name="pid" Type="Int32" />
           <Property Name="bid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="wish">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -234,6 +250,14 @@
                 <ScalarProperty Name="bid" ColumnName="bid" />
                 <ScalarProperty Name="pid" ColumnName="pid" />
                 <ScalarProperty Name="sid" ColumnName="sid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="wishes">
+            <EntityTypeMapping TypeName="AuctionDbModel.wish">
+              <MappingFragment StoreEntitySet="wish">
+                <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>

@@ -66,6 +66,13 @@
     <Property Name="uid" Type="int" />
     <Property Name="balance" Type="float" />
   </EntityType>
+  <EntityType Name="wish">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+  </EntityType>
   <EntityContainer Name="AuctionDbModelStoreContainer">
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Favourite" EntityType="Self.Favourite" Schema="dbo" store:Type="Tables" />
@@ -74,5 +81,6 @@
     <EntitySet Name="Sold" EntityType="Self.Sold" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Wallet" EntityType="Self.Wallet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="wish" EntityType="Self.wish" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

@@ -18,10 +18,12 @@ import java.util.List;
 public class HistoryAdapter extends ArrayAdapter {
     private Context context;
     private List<History> list;
-    public HistoryAdapter(@NonNull Context context, List<History> list) {
+    private int op;
+    public HistoryAdapter(@NonNull Context context, List<History> list,int op) {
         super(context, R.layout.history_item,list);
         this.context = context;
         this.list = list;
+        this.op = op;
     }
 
 
@@ -41,7 +43,17 @@ public class HistoryAdapter extends ArrayAdapter {
 
         name.setText("Name:"+list.get(position).name);
         price.setText("Price:"+list.get(position).price);
-        offer.setText("Bid Price:"+list.get(position).offer);
+        if(op == 0){
+            offer.setText("Sold to you!");
+
+        }else if(op==2){
+            offer.setText("Item Added to products!");
+        }
+        else{
+
+            offer.setText("Bid Price:"+list.get(position).offer);
+        }
+
         Picasso.get().load(Helper.imgUrl+list.get(position).image).into(img);
         return  convertView;
     }

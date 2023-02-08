@@ -61,7 +61,7 @@ public class HistoryFragment extends Fragment {
                         h.price = Double.parseDouble(String.valueOf(response.getJSONObject(i).getDouble("price")));
                         h.offer = Double.parseDouble(String.valueOf(response.getJSONObject(i).getDouble("offer")));
                         list.add(h);
-                       adapter = new HistoryAdapter(requireContext(),list);
+                       adapter = new HistoryAdapter(requireContext(),list,1);
                        lv.setAdapter(adapter);
                     } catch (JSONException e) {
                         e.printStackTrace();
